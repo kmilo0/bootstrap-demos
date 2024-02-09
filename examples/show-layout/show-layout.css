@@ -1,0 +1,25 @@
+/* Including border, but not the margin. */
+.container {
+  border: 5px solid gray;
+}
+
+.row {
+  border: 5px solid yellow;
+}
+
+[class*="col-"] {
+  border: 5px solid black;
+}
+
+.d-flex {
+  border: 5px solid orange;
+}
+
+.d-flex > * {
+  border: 5px solid red;
+}
+
+body::before {
+  content: "Contaier: gray \A Row: yellow \A Col: black \A Flex: orange \A Flex-item: red";
+  white-space: pre;
+}

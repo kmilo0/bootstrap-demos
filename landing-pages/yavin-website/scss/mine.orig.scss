@@ -1,0 +1,30 @@
+// Media query for the bootstrap breakpoint md or less
+@media (max-width: 991px) {
+  .hero .text-container {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .services .services-icon {
+    border-bottom: 1px solid gray;
+    margin-bottom: 1.5rem;
+  }
+
+  .transform {
+    padding-block-start: 1.5rem !important;
+    text-align: center;
+    .text-container {
+      padding-bottom: 1.5rem;
+    }
+  }
+
+  .some {
+    padding-bottom: 8rem !important;
+    .text-container {
+      text-align: left !important;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
