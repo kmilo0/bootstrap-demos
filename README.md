@@ -1,8 +1,8 @@
 # bootstrap-demos
 
-## landing-pages
+## Landing-pages
 
-### bootstrap from scratch
+### Bootstrap from scratch
 
 My implementation of the designs in the course bootstrap from scratch https://www.udemy.com/course/bootstrap-from-scratch/
 
